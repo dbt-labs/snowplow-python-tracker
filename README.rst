@@ -22,29 +22,6 @@ This is a fork of the original Snowplow Python tracker v0.8.0, with a number of 
 	- All tracking event methods except for structured/unstructured removed
 	- Python 3.7 supported
 
-Find out more
-#############
-
-+---------------------------------+---------------------------+-------------------------+-----------------------------------+
-| Technical Docs                  | Setup Guide               | Roadmap                 | Contributing                      |
-+=================================+===========================+=========================+===================================+
-| |techdocs|_                     | |setup|_                  | |roadmap|               | |contributing|                    |
-+---------------------------------+---------------------------+-------------------------+-----------------------------------+
-| `Technical Docs`_               | `Setup Guide`_            | `Roadmap`_              | `Contributing`_                   |
-+---------------------------------+---------------------------+-------------------------+-----------------------------------+
-
-.. |techdocs| image:: https://d3i6fms1cm1j0i.cloudfront.net/github/images/techdocs.png
-.. |setup| image:: https://d3i6fms1cm1j0i.cloudfront.net/github/images/setup.png
-.. |roadmap| image:: https://d3i6fms1cm1j0i.cloudfront.net/github/images/roadmap.png
-.. |contributing| image:: https://d3i6fms1cm1j0i.cloudfront.net/github/images/contributing.png
-
-.. _techdocs: https://github.com/snowplow/snowplow/wiki/Python-Tracker
-.. _setup: https://github.com/snowplow/snowplow/wiki/Python-Tracker-Setup
-
-.. _`Technical Docs`: https://github.com/snowplow/snowplow/wiki/Python-Tracker
-.. _`Setup Guide`: https://github.com/snowplow/snowplow/wiki/Python-Tracker-Setup
-.. _`Roadmap`: https://github.com/snowplow/snowplow/wiki/Python-Tracker-Roadmap
-.. _`Contributing`: https://github.com/snowplow/snowplow/wiki/Python-Tracker-Contributing
 
 Contributing quickstart
 #######################
