@@ -1,15 +1,9 @@
 ======================================================
 Python Analytics for Snowplow 
 ======================================================
-.. image:: https://travis-ci.org/snowplow/snowplow-python-tracker.png?branch=master
-    :alt: Build Status
-    :target: https://travis-ci.org/snowplow/snowplow-python-tracker
-.. image:: https://badge.fury.io/py/snowplow-tracker.png
-    :target: http://badge.fury.io/py/snowplow-tracker
-.. image:: https://coveralls.io/repos/snowplow/snowplow-python-tracker/badge.png
-    :target: https://coveralls.io/r/snowplow/snowplow-python-tracker
-.. image:: http://img.shields.io/badge/license-Apache--2-blue.svg?style=flat
-    :target: http://www.apache.org/licenses/LICENSE-2.0
+.. image:: https://circleci.com/gh/fishtown-analytics/snowplow-python-tracker/tree/master.svg?style=svg
+	:alt: Build Status
+	:target: https://circleci.com/gh/fishtown-analytics/snowplow-python-tracker
 
 
 Overview
