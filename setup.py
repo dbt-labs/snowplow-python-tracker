@@ -52,7 +52,7 @@ setup(
     version=__version__,
     author=authors_str,
     packages=['snowplow_tracker', 'snowplow_tracker.test'],
-    url='http://getdbt.com',
+    url='https://www.fishtownanalytics.com',
     license='Apache License 2.0',
     description='A minimal snowplow event tracker for Python. Add analytics to your Python and Django apps, webapps and games',
     long_description=open('README.rst').read(),
