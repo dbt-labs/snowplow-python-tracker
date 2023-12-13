@@ -48,6 +48,10 @@ authors_list = [
 ]
 authors_str = ', '.join(authors_list)
 
+this_directory = os.path.abspath(os.path.dirname(__file__))
+with open(os.path.join(this_directory, "README.md")) as f:
+    long_description = f.read()
+
 setup(
     name='minimal-snowplow-tracker',
     version=__version__,
@@ -56,20 +60,14 @@ setup(
     url='https://www.fishtownanalytics.com',
     license='Apache License 2.0',
     description='A minimal snowplow event tracker for Python. Add analytics to your Python and Django apps, webapps and games',
-    long_description=open('README.rst').read(),
+    long_description=long_description,
+    long_description_content_type="text/markdown",
 
     classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Intended Audience :: Developers",
         "License :: OSI Approved :: Apache Software License",
         "Programming Language :: Python",
-        "Programming Language :: Python :: 2",
-        "Programming Language :: Python :: 2.7",
-        "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.3",
-        "Programming Language :: Python :: 3.4",
-        "Programming Language :: Python :: 3.5",
-        "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
         "Operating System :: OS Independent",
     ],
